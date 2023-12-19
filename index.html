@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Property Istanbul</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <i class="fa-solid fa-house"></i>
+            <h1>Property</h1>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>Buy</li>
+                <li>House</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <input type="search" placeholder="Aradığınız mülk nedir?">
+            <button>Log In</button>
+            <button>Log Out</button>
+        </div>
+    </header>
+
+    <div class="filter">
+        <select required="required">
+            <option value="" disabled="disabled" selected="selected">City</option>
+            <option value="">Istanbul</option>
+            <option value="">Ankara</option>
+            <option value="">Bursa</option>
+            <option value="">Antalya</option>
+            <option value="">İzmir</option>
+        </select>
+
+        <select required="required">
+            <option value="" disabled="disabled" selected="selected">Type</option>
+            <option value="">Villa</option>
+            <option value="">House</option>
+            <option value="">Apartment</option>
+            <option value="">Bungalow</option>
+            <option value="">Hotel</option>
+        </select>
+
+        <select required="required">
+            <option value="" disabled="disabled" selected="selected">Status</option>
+            <option value="">For Sale</option>
+            <option value="">For Rent</option>
+            <option value="">Daily Rent</option>
+            <option value="">All</option>
+        </select>
+
+        <div class="price">
+            <h3>Price:</h3>
+            <label for="">Min.</label>
+            <input type="number" placeholder="100.000$">
+            <label for="">Max.</label>
+            <input type="number" placeholder="1.000.000$">
+            <button>Filtred</button>
+        </div>
+
+        <select required="required">
+            <option value="" disabled="disabled" selected="selected">Bedrooms</option>
+            <option value="">0</option>
+            <option value="">1</option>
+            <option value="">2-4</option>
+            <option value="">5+</option>
+        </select>
+    </div>
+
+    <div class="wel-pic">
+        <img src="images/wel-pic.jpg" alt="">
+        <p>Choose the house you want in the heart of the world.</p>
+    </div>
+
+    <!-- Ev Kartları -->
+    <div class="home-cards">
+        <h2>today's recommended apartments</h2>
+
+        <div class="todays-home">
+            <div class="home-info">
+                <img src="images/home1.jpg" alt="">
+                <h3>İstanbul</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>İncele</button>
+            </div>
+
+            <div class="home-info">
+                <img src="images/home2.jpg" alt="">
+                <h3>London</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>İncele</button>
+            </div>
+
+            <div class="home-info">
+                <img src="images/home3.jpg" alt="">
+                <h3>Miami</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>İncele</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about">
+        <h2>Why Choose Us?</h2>
+        <h3>for lifestyle & investment</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis inventore tempore magnam nesciunt,
+            perferendis hic. Dolor velit, dicta sed magnam voluptas eos vitae incidunt quas nihil, quis iure quos quidem
+            necessitatibus corrupti, ipsa cupiditate facilis atque adipisci aliquam dolorem. Neque voluptas magnam
+            possimus architecto labore necessitatibus libero, incidunt minus impedit dolorem error sit hic velit! Vitae,
+            adipisci illum repellat labore rerum tempore repudiandae sunt inventore debitis excepturi nisi quod
+            perspiciatis delectus facilis vel quas amet et quia unde odit soluta voluptatum nihil tenetur? In distinctio
+            nisi libero, iure dolorum commodi, quaerat quas culpa dolor omnis dolores corporis, laudantium corrupti
+            repellat.</p>
+    </div>
+
+    <div>
+        <div class="features">
+            <div class="company-info">
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+                <h1>Best Location</h1>
+                <p>En iyi lokasyon, en iyi hizmet.</p>
+                <button>Daha Fazla</button>
+            </div>
+
+            <div class="company-info">
+                <i class="fa-solid fa-clipboard-list"></i>
+                <h1>Best Features</h1>
+                <p>Eşsiz gayrimenkul kıymetler.</p>
+                <button>Daha Fazla</button>
+            </div>
+
+            <div class="company-info">
+                <i class="fa-solid fa-globe"></i>
+                <h1>Global</h1>
+                <p>Küresel çapta değer.</p>
+                <button>Daha Fazla</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-face-grin-stars"></i>
+        <h2>Happy Shopping, Happy Buyers</h2>
+        <h3>customer comments</h3>
+    </div>
+
+    <div class="comments">
+        <div class="comment-info">
+            <i class="fa-solid fa-comment-dots"></i>
+            <h2>Thank you for your interest. My wife and I were very pleased.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatibus impedit sunt cumque culpa
+                facere?</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="customer-info">
+                <i class="fa-solid fa-user"></i>
+                <p>Mark Hughes</p>
+                <p>02/07/2023</p>
+            </div>
+        </div>
+
+        <div class="comment-info">
+            <i class="fa-solid fa-comment-dots"></i>
+            <h2>I am grateful to you and your beautiful home for this beautiful house.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatibus impedit sunt cumque culpa
+                facere?</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="customer-info">
+                <i class="fa-solid fa-user"></i>
+                <p>Jessica Bakery</p>
+                <p>23/10/2023</p>
+            </div>
+        </div>
+
+
+        <div class="comment-info">
+            <i class="fa-solid fa-comment-dots"></i>
+            <h2>The best house and decoration I have ever seen in my life.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatibus impedit sunt cumque culpa
+                facere?</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="customer-info">
+                <i class="fa-solid fa-user"></i>
+                <p>John Cena</p>
+                <p>10/02/2023</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-comments"></i>
+        <h2>Contact Us</h2>
+        <h3>we are just a message away</h3>
+    </div>
+    <div class="contact">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Surname">
+        <input type="email" placeholder="Email">
+        <input type="number" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="what do you want to write?"></textarea>
+        <button>Gönder</button>
+        <em>or call us</em>
+        <code>+1 435 56 65</code>
+        <code>NY, USA</code>
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-newspaper"></i>
+        <h2>News</h2>
+        <h3>news about us</h3>
+    </div>
+    <div class="news">
+
+        <div class="newspaper">
+            <img src="images/news.png" alt="">
+            <h3>The New York Times</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nobis accusamus atque, architecto
+                laboriosam mollitia possimus. Ex quisquam enim quo!</p>
+        </div>
+
+        <div class="newspaper">
+            <img src="images/news.png" alt="">
+            <h3>The Telegraph</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nobis accusamus atque, architecto
+                laboriosam mollitia possimus. Ex quisquam enim quo!</p>
+        </div>
+
+        <div class="newspaper">
+            <img src="images/news.png" alt="">
+            <h3>The Guardian</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nobis accusamus atque, architecto
+                laboriosam mollitia possimus. Ex quisquam enim quo!</p>
+        </div>
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-city"></i>
+        <h2>Building</h2>
+        <h3>our projects under construction</h3>
+    </div>
+    <div class="building">
+        <img src="images/build.jpg" alt="">
+        <img src="images/build2.jpg" alt="">
+        <img src="images/build3.jpg" alt="">
+    </div>
+
+    <div class="about">
+        <i class="fa-solid fa-people-group"></i>
+        <h2>Our Team</h2>
+        <h3>experience is everything</h3>
+    </div>
+    <div class="team">
+        <div class="member">
+            <i class="fa-solid fa-user-tie"></i>
+            <h2>Philipp Mountain</h2>
+            <p>Founder</p>
+            <small>since 1999</small>
+        </div>
+
+        <div class="member">
+            <i class="fa-solid fa-user-tie"></i>
+            <h2>Nicolas Cage</h2>
+            <p>Specialist</p>
+            <small>since 2001</small>
+        </div>
+
+        <div class="member">
+            <i class="fa-solid fa-user-tie"></i>
+            <h2>Scarlett Wayne</h2>
+            <p>Contractor</p>
+            <small>since 2011</small>
+        </div>
+
+        <div class="member">
+            <i class="fa-solid fa-user-tie"></i>
+            <h2>Melissa Heather</h2>
+            <p>Advisor</p>
+            <small>since 2018</small>
+        </div>
+    </div>
+
+    <footer>
+        <p>©  2023. Bu sayfa <a href="https://github.com/EyupSaltukB">Eyüp Saltuk </a>tarafından yapılmıştır. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+
+</html>
